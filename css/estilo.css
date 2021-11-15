@@ -1,0 +1,287 @@
+/*Cabeçalho*/
+.header {
+    background-color: rgb(228, 73, 62);
+    padding: px;
+    text-align: center;
+    border-radius: 50px;
+    margin-bottom: 10px;
+  }
+
+  /* Style the top navigation bar */
+  .topnav {
+    overflow: hidden;
+    background-color:rgb(226, 223, 59);
+    font-weight: bold;
+    padding-left: 30px; 
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 50px;
+     }
+
+  /* Style the topnav links */
+.topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+  }
+
+  /* Change color on hover */
+.topnav a:hover {
+    background-color: rgb(228, 73, 62);
+    border-radius: 1px;
+   
+    display: block;
+  }
+
+  body{
+      background-color: rgb(243, 154, 154);    
+  }
+
+  /* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: rgb(228, 73, 62);
+    margin-top: 20px;
+    border-radius: 50px;
+    font-weight: bold;
+  }
+
+/* Create three equal columns that floats next to each other */
+.column {
+  background-color: #f1f1f1;
+  float: center;
+  width: 98%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  background-color: #f1f1f1;
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+/*posição img, imagem do cabeçalho header*/
+.img{
+ padding-right: 50% ;
+ padding:1px;
+ border-radius: 300px;
+}
+
+/*posição nav lado direito*/
+.direita{
+  float:right;
+  padding-left: 50px;
+  display: block;
+  margin-right: 100px;
+  }
+
+  /*Estilização campo de busca*/
+  input[type=search] {
+    width: 15%;
+    padding: 5px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: #ddcefa;
+    color: black;
+    margin-left: 60px;
+    }
+   /*estilização camps input*/
+    
+    input[type=email] {
+      width: 30%;
+      padding: 5px 10px;
+      margin: 8px ;
+      box-sizing: border-box;
+      background-color: #ddcefa;
+      color: black;
+      margin-left: 10px;
+      }
+      
+      input[type=password] {
+        width: 30%;
+        padding: 5px 10px;
+        margin: 8px ;
+        box-sizing: border-box;
+        background-color: #ddcefa;
+        color: black;
+        margin-left: 10px;
+        }
+        input[type=tel] {
+          width: 30%;
+          padding: 5px 10px;
+          margin: 8px ;
+          box-sizing: border-box;
+          background-color: #ddcefa;
+          color: black;
+          margin-left: 10px;
+          }
+          input[type=text] {
+            width: 30%;
+            padding: 5px 10px;
+            margin: 8px ;
+            box-sizing: border-box;
+            background-color: #ddcefa;
+            color: black;
+            margin-left: 10px;
+            }
+            select{
+              width: 30%;
+            padding: 5px 10px;
+            margin: 8px ;
+            box-sizing: border-box;
+            background-color: #ddcefa;
+            color: black;
+            margin-left: 10px;
+            }
+            input[type=number] {
+              width: 40%;
+              padding: 5px 10px;
+              margin: 8px ;
+              box-sizing: border-box;
+              background-color: #ddcefa;
+              color: black;
+              margin-left: 10px;
+              }
+
+        /*estilização textarea*/
+      textarea{
+       width: 90%;
+       margin: 8px ;
+       box-sizing: border-box;
+       background-color: #ddcefa;
+       color: black;
+      }
+    /*Estilização buttons em geral*/
+    .button2 {
+      background-color: rgb(224, 221, 8); 
+      color: black; 
+      border: 2px solid rgb(87, 64, 102);
+      padding: 3px 5px;
+      margin-left: 3px;
+      margin-bottom: 10px;
+      width: 60%;
+    }
+    /*Efeito no botão ao passar o mouse*/
+    .button2:hover {
+      background-color: #f14f4f;
+    }
+    /*estilização botões dos box de anuncio*/
+    .button3 {
+      background-color: rgb(224, 221, 8); 
+      color: black;        
+    }
+    /*Efeito no botão ao passar o mouse*/
+    .button2:hover {
+      background-color: #f14f4f;
+    }
+    /*estilização button navbar/ button da barra de pesquisa*/
+      /*Estilização button*/
+      .button3 {
+        background-color: rgb(224, 221, 8); 
+        color: black; 
+        border: 2px solid rgb(87, 64, 102);
+        padding: 3px 5px;
+        margin-left: 3px;
+        margin-bottom: 10px;
+        }
+      /*Efeito no botão ao passar o mouse*/
+      .button3:hover {
+        background-color: #f14f4f;
+      }
+/* Footer */
+.promo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#off{
+  color: red;
+  background: rgb(240, 235, 164);
+  width: auto;
+  text-align: center;
+  border-radius: 50px;
+  font-weight: bold;
+  border-style: double;
+  border: 2px solid rgb(255, 0, 0);
+}
+/*form do campo de login*/
+.form{
+  background-color: rgb(226, 223, 59);
+  width: 30%;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 15px;
+  border-style: double;
+  }
+/*estilização login*/
+.log{
+  background-color: rgba(235, 143, 137, 0.788);
+  font-weight: bold;
+  border-style: double;
+  }
+  textarea{
+    resize: none;
+  }
+  /*Box de anuncio*/
+.anuncio{
+    background-color: lightgrey;
+    width: 250px;
+    border: 5px solid rgb(235, 30, 30);
+    padding: 50px;
+    margin: 10px;
+    font-size: 30px ;
+    text-align: center;
+    display: inline-block;/* importante para fazer os itens div aparecer lado a lado*/
+    }
+    /*retira ponto da lista*/
+    li {
+      list-style-type: none;
+    }
+    .imgcenter{
+      width: 200px;
+      height: 200px;
+      border-radius: 30px;
+    }
+    /*Cabeçalho h4 do carrosel, style da mensagem do carrocel*/
+    h4{
+      font-size: 30px ;
+      font-weight: bold;
+      background-color: #f14f4f;
+      width: 1120px;
+      border-radius: 50px;
+      text-align: center;
+      margin: auto;
+      }
+/*itens do index*/
+.imgconstruct{
+  width: 100%;
+  border-radius: 50px;
+}
+.imgindex{
+border-radius: 50px;
+border-style: double;
+border: 2px solid rgb(255, 0, 0);
+width: 20%;
+}
+.divindex{
+  margin: 20px;
+}
+.slide{
+  width: 80%;
+}
+/*visibilidade por padrão do finalizar em none*/
+#finalizar{
+  display: none;
+}

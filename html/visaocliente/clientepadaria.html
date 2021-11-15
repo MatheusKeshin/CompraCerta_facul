@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/estilo.css">
+    <title>🛒Compra Certa-CLIENTE</title>
+    <script type="text/javascript" src="C:\Users\Matheus Dias\Desktop\Paginaefetiva\js\codigo.js"></script>
+</head>
+
+<body>
+    <header class="header">  
+        <a href="C:\Users\Matheus Dias\Desktop\Paginaefetiva\html\visaocliente\indexcliente.html">
+        <img src="https://uploaddeimagens.com.br/images/003/180/372/original/compracerta.png?1617487361" class="img">
+        </a>   
+    </header>
+    
+    <div class="topnav">
+        <a href="visaocliente.html">Perfil</a>
+        <input type="search" placeholder="PESQUISE AQUI!" ><button class="button3">Buscar</button>
+
+        <div class="direita">
+         <a href="clientepadaria.html">Padaria</a>
+         <a href="bebidas.html">Bebidas</a>
+         <a href="mercearia.html">Mercearia</a>
+         <a href="produtosdelimpeza.html">Produtos de Limpeza</a>
+         <a href="higienepessoaleperfumaria.html">Higiene Pessoal e Perfumaria</a>
+         <a href="C:\Users\Matheus Dias\Desktop\Paginaefetiva\html\carrinho.html">🛒Carrinho</a>     
+         <a onclick="saida()" href="C:\Users\Matheus Dias\Desktop\Paginaefetiva\html\logout.html">🚪</a>  
+        </div>
+        
+    </div>
+
+<section class="column">
+    <div class="anuncio">
+        <ul>
+            <li><img class="imgcenter" src="https://receitatodahora.com.br/wp-content/uploads/2019/02/pao-de-milho-verde-com-leite-condensado.jpg"></li>
+            <li>Pão de Milho</li>
+            <br>
+            <li>R$ 0,70 /UN</li>
+            <br>
+            QNT:<input type="number" min="1" placeholder="1">
+            <li><button class="button3" name="login" onclick="add()">Adicionar ao Carrinho🛒</button></li>
+          </ul>  
+    </div>
+    <div class="anuncio">
+        <ul>
+            <li><img class="imgcenter"src="http://pocoscom.com/wp-content/uploads/2018/01/p%C3%A3o-frances-2.png"></li>
+            <li>Pão Francês</li>
+            <br>
+            <li>R$ 1,00 /UN</li>
+            <br>
+            QNT:<input type="number" min="1" placeholder="1">
+            <li><button class="button3" name="login" onclick="add()">Adicionar ao Carrinho🛒</button></li>
+          </ul>  
+    </div>
+    <div class="anuncio">
+        <ul>
+            <li><img class="imgcenter"src="data:image/jpeg;base64,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"></li>
+            <li>Pão de forma</li>
+            <br>
+            <li>R$ 0,60 /UN</li>
+            <br>
+            QNT:<input type="number" min="1" placeholder="1">
+            <li><button class="button3" name="login" onclick="add()">Adicionar ao Carrinho🛒</button></li>
+          </ul>  
+    </div>
+    <div class="anuncio">
+        <ul>
+            <li><img class="imgcenter"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZNObCcm4imNpqZt8H99V8pSQ9Gy8zr_f1Kw&usqp=CAU"></li>
+            <li>Pão de leite</li>
+            <br>
+            <li>R$ 1,00 /UN</li>
+            <br>
+            QNT:<input type="number" min="1" placeholder="1">
+            
+            <li><button class="button3" name="login" onclick="add()">Adicionar ao Carrinho🛒</button></li>
+          </ul>  
+    </div>
+  
+</section>
+
+
+<div class="topnav">
+    <a href="#">&laquo;</a>
+    <a href="#">1</a>
+    <a class="active" href="emconstrução.html">2</a>
+    <a href="emconstrução.html">3</a>
+    <a href="emconstrução.html">4</a>
+    <a href="emconstrução.html">5</a>
+    <a href="emconstrução.html">6</a>
+    <a href="#">&raquo;</a>
+</div>
+   
+
+<footer class="footer">
+    <p>Compra Certa, todos os direitos reservador. Copyright 2021</p>
+    <p> CNPJ 20.132.065/0001-64</p>
+    <p>Av. Luiza Abreum 190, Caixa D'agua, Salvador-BA CEP 00100-100 | Contato: (71) 9 9999-9988</p>
+   </footer>
+
+</body>
+</html>

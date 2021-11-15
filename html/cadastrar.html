@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>🛒Compra Certa</title>
+    <script type="text/javascript" src="../js/codigo.js"></script>
+</head>
+
+<body>
+    <header class="header">  
+        <a href="index.html">
+        <img src="https://uploaddeimagens.com.br/images/003/180/372/original/compracerta.png?1617487361" class="img">
+        </a>   
+    </header>
+    
+    <div class="topnav">
+        <a href="cadastrar.html">Cadastrar</a>
+        <a href="Login.html">Login</a>
+        <input type="search" placeholder="PESQUISE AQUI!" ><button class="button3">Buscar</button>
+
+        <div class="direita">
+         <a href="padaria.html">Padaria</a>
+         <a href="bebidas.html">Bebidas</a>
+         <a href="mercearia.html">Mercearia</a>
+         <a href="produtosdelimpeza.html">Produtos de Limpeza</a>
+         <a href="higienepessoaleperfumaria.html">Higiene Pessoal e Perfumaria</a>   
+         <a href="C:\Users\Matheus Dias\Desktop\Paginaefetiva\html\carrinho.html">🛒Carrinho</a>   
+        </div>
+        
+    </div>
+
+
+<section class="column"><center>
+<form class="form" id="formulario" style="text-align: left;">
+    <center>
+    <h2 class="log"><b>Cadastro</b></h2>
+    <div class="teste"></div>
+    <p class="log">Digite somente o numero do cpf</p>
+    <p>CPF: <input type="text" min="1" id="idCpf" name="cpf" oninput="mascara(this)" placeholder="000.000.000-00"></p>
+    <p>Nome completo: <input type="text" id="idNomecad" name="name" placeholder="André Silva"></p>
+    <p>Email:<input type="email" id="idEmailCad" name="email" placeholder="email@gmail.com"></p>
+    <p class="log">Senha de até 6 digitos</p>
+    <p>Senha:<input type="password" id="idSenhacad" name="Senha" maxlength="6" placeholder="Digite sua senha"></p>
+    <p>Confirmação:<input type="password" id="confirmacao" name="confirmacao" maxlength="6" placeholder="Confirme sua senha"></p>
+    <p>Telefone:<input type="tel" id="idTel" name="telefone" placeholder="(71) 99999-9988" maxlength="15"></p>
+    <p>Eu sou: <select name="tipocliente" size="1"><option >Cliente</option><option>Funcionário</option></select></p>
+    <p>Endereço:</p>
+    <p><textarea id="idEnd" cols="50" rows="5" placeholder="Exemplo: Salvador-BA, Caixa D'agua, Av.Luiza Abreum, n°190" maxlength="160"></textarea></p>
+    <img src="https://i.ibb.co/CnkwcPd/oie-transparent.png">
+    <p>Número do Cartão: <input type="text" name="numeroCartao"></p>
+    <p>CVV: <input type="text" name="cvv"></p>
+    <p>Validade: <input type="text" name="validade"></p>
+    </div>
+    <p><button class="button2" type="button" name="cadastrar" onclick="valcad()">cadastrar</button></p>
+</center>
+</form></center>
+</section>
+   
+<footer class="footer">
+    <p>Compra Certa, todos os direitos reservador. Copyright 2021</p>
+    <p> CNPJ 20.132.065/0001-64</p>
+    <p>Av. Luiza Abreum 190, Caixa D'agua, Salvador-BA CEP 00100-100 | Contato: (71) 9 9999-9988</p>
+   </footer>
+
+
+</body>
+</html>

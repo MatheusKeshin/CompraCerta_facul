@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <title>🛒Compra Certa</title>
+    <script type="text/javascript" src="../js/codigo.js"></script>
+</head>
+
+<body>
+    <header class="header">  
+        <a href="index.html">
+        <img src="https://uploaddeimagens.com.br/images/003/180/372/original/compracerta.png?1617487361" class="img">
+        </a>   
+    </header>
+    
+    <div class="topnav">
+        <a href="../html/visaocliente/visaocliente.html">Perfil</a>
+        
+        <input type="search" placeholder="PESQUISE AQUI!" ><button class="button3">Buscar</button>
+
+        <div class="direita">
+         <a href="padaria.html">Padaria</a>
+         <a href="bebidas.html">Bebidas</a>
+         <a href="mercearia.html">Mercearia</a>
+         <a href="produtosdelimpeza.html">Produtos de Limpeza</a>
+         <a href="higienepessoaleperfumaria.html">Higiene Pessoal e Perfumaria</a>   
+         <a href="C:\Users\Matheus Dias\Desktop\Paginaefetiva\html\carrinho.html">🛒Carrinho</a>  
+         <a onclick="saida()" href="C:\Users\Matheus Dias\Desktop\Paginaefetiva\html\logout.html">🚪</a> 
+        </div>
+        
+    </div>
+
+
+<section class="column"><center>
+
+    <div class="form">
+        <h1 class="log">🛒Minha Lista</h1>
+        
+        <p>Pão de Milho                | QTD/un: 5</p>
+        <p>Pão Francês                 | QTD/un: 6</p>
+        <p>Refrigerante Coca Cola lata | QTD/un: 2</p>
+        <p>Feijão Carioca pacote 1kg - Camil |QTD/un: 1</p>
+        <p style="background-color: rgb(238, 160, 44);">Total: 17,87 Reais </p>
+        <br>
+        <p>Estado do pedido: <select name="tipocliente" size="1"> <option ></option><option >Seleção</option><option>A caminho</option><option>Entregue</option></select>
+        <p><button id="conf" class="button2" type="button" name="cadastrar" onclick="ccompra()" >Confirmar compra</button></p>
+        <p><button id="cancelar" class="button2" type="button" name="cancelar">Cancelar</button></p>
+        <p>Diga-nos o que achou dos nossos serviços:</p>
+        <p><textarea id="idEnd" cols="50" rows="5" placeholder="Exemplo: Salvador-BA, Caixa D'agua, Av.Luiza Abreum, n°190" maxlength="160"></textarea></p>
+        <p><button id="cancelar" class="button2" type="button" name="cancelar">Submeter feedback</button></p>
+    </div>
+</section>
+   
+<footer class="footer">
+    <p>Compra Certa, todos os direitos reservador. Copyright 2021</p>
+    <p> CNPJ 20.132.065/0001-64</p>
+    <p>Av. Luiza Abreum 190, Caixa D'agua, Salvador-BA CEP 00100-100 | Contato: (71) 9 9999-9988</p>
+   </footer>
+
+
+</body>
+</html>
